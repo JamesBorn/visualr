@@ -13,6 +13,11 @@ plot(x,y, pch = 20, xlab = "fake x data", ylab = "fake y data")
 
 #Ch2
 install.packages("ISLR")
-library(ISLR)
 
+library(ISLR)
+attach(Carseats)
+plot()
+
+install.packages("googleVis")
+library(googleVis)
 
